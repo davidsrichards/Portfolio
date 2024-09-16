@@ -1,0 +1,20 @@
+.semi-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-bottom: 5px;
+  transition: color 0.3s;
+}
+
+.title {
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.p {
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  transition: color 0.3s;
+}

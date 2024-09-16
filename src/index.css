@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-font {
+  font: 600 " Montserrat", sans-serif;
+  @apply uppercase  font-[600] lg:text-[14px];
+}
+
+* {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+body {
+  color: #797979;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hm {
+  position: relative;
+  display: inline-block;
+}
+
+.hm::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.hm {
+  cursor: pointer;
+}
+
+.hm:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* active */
+.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(1);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+body {
+  color: #797979;
+  font-family: Open "Sans", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.scroll-none::-webkit-scrollbar {
+  scrollbar-width: none;
+}
+
+/*  */
+
+.space {
+  @apply flex flex-col gap-8;
+}
+
+img {
+  cursor: pointer;
+}

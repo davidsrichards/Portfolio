@@ -1,0 +1,41 @@
+.testimony {
+  background-image: url("https://john-react.wethemez.com/static/media/img-3.21184eb7d3d2ffca2abf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+.testimony-container .head {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimony-container .role {
+  font: 400 13px Open "Sans", sans-serif;
+  opacity: 0.6;
+}
+
+.testimony-container .p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(75px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  animation: animate 1.5s linear;
+}
