@@ -7,7 +7,7 @@ import HomeComponent from "./HomeComponent/HomeComponent";
 import MyPortfolio from "./MyPortfolio/MyPortfolio";
 import Testimony from "./Testimony/Textimony";
 import Trusted from "./Trusted/Trusted";
-import WhatIDo from "./WhatIDo/WhatIDo.JSX";
+import WhatIDo from "./WhatIDo/WhatIDo";
 
 function Component() {
   return (
